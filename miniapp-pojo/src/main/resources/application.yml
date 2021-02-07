@@ -1,0 +1,6 @@
+app-config:
+  app_id : 'wx280b6bd672f1395e'
+  app_key : 'c4410f97845e93384e5d7d6e96d838d4'
+  pay_id : '1569342521'
+  pay_key : 'qwertyuioplkjhgfdsazxcvbnmqwerty'
+  version : '1.0.2'

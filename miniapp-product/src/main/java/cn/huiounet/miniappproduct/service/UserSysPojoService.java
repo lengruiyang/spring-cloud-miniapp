@@ -2,6 +2,7 @@ package cn.huiounet.miniappproduct.service;
 
 
 import cn.huiounet.miniapppojo.pojo.UserSysPojo;
+import cn.huiounet.miniappproduct.utils.AppException;
 
 /**
  * 作者 ：冷瑞阳
@@ -14,12 +15,12 @@ public interface UserSysPojoService {
      * @param id
      * @return
      */
-    UserSysPojo findById(int id);
+    UserSysPojo findById(int id)throws AppException;
 
     /**
      * 根据openId查找
      * @param open_id
      * @return
      */
-    UserSysPojo findByOpenId(String open_id);
+    UserSysPojo findByOpenId(String open_id)throws AppException;
 }

@@ -8,6 +8,7 @@
             <artifactId>lombok</artifactId>
             <version>1.16.2</version>
         </dependency>
+
         <!--        通用mapper-->
         <dependency>
             <groupId>tk.mybatis</groupId>

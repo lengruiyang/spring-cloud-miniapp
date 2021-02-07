@@ -6,6 +6,18 @@ spring:
     password: dCAi4a2rrLDaREPf
     url: jdbc:mysql://39.99.136.115/task_mini_app?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      #      password: lry123456
+      jedis:
+        pool:
+          max-active: 8
+          max-wait: -1
+          max-idle: 500
+          min-idle: 0
+      lettuce:
+        shutdown-timeout: 0
   pool:
     enabled: true
     max-connections: 10   #连接池最大连接数
