@@ -2,7 +2,6 @@ package cn.huiounet.miniappconsumer.web;
 
 
 import cn.huiounet.miniappconsumer.service.ProductService;
-import cn.huiounet.miniapppojo.pojo.UserSysPojo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
